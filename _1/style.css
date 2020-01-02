@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    background-color: rgb(95, 126, 126) ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

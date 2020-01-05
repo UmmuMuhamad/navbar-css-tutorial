@@ -20,8 +20,17 @@ header{
 
 .logo{
     cursor: pointer;
+    order: 3;
+    /* margin-left: auto; */
 }
 
+nav{
+    order: 1;
+}
+
+.cta{
+    order: 2;
+}
 .nav_links{
     list-style: none;
 }
@@ -29,6 +38,10 @@ header{
 .nav_links li{
     display: inline-block;
     padding: 0px 24px;
+}
+
+.nav_links li:nth-child(1){
+    padding: 0 20px 0 0;
 }
 
 .nav_links li a{
@@ -39,7 +52,9 @@ header{
     color: #32992f;
 }
 
+
 button{
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgb(169, 158, 1);
     border: none;

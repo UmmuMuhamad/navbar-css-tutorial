@@ -13,13 +13,14 @@ li, a, button {
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 } 
 
 .logo{
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav_links{
@@ -41,6 +42,7 @@ header{
 
 button{
     padding: 9px 25px;
+    margin-left: 20px;
     background-color: rgb(169, 158, 1);
     border: none;
     border-radius: 50px;
